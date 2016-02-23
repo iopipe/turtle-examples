@@ -1,0 +1,11 @@
+{
+  "name": "iopipe-rjpipeline",
+  "version": "0.0.1",
+  "description": "RJ Metrics Pipeline for IOpipe",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Eric Windisch <eric@iopipe.com>",
+  "license": "Apache 2.0"
+}
