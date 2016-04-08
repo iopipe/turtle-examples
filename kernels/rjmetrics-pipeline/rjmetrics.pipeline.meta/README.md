@@ -2,6 +2,25 @@
 
 Usage:
 
+```javascript
+var iopipe = require("iopipe")()
+var pipeline = iopipe.define("rjmetrics.pipeline.meta")({
+  "client_id": 1,
+  "table_name": "users",
+  "key_names": ["id"]
+})
+
+/* In practice, this would be used as such: */
+iopipe.define("https://get.this.data/",
+              (e, cb) => { cb(do_something_with_data) },
+              pipeline)
+```
+
+--------------------------------------------
+# WARNING: changes since the below instructions...
+
+Usage:
+
 1. Fork project & edit index.js to indicate your
    RJ Metrics client id, table name, and key names.
 
