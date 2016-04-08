@@ -1,3 +1,4 @@
+/* Should be rewritten to use the hacker news kernels... */
 var http = require('http')
 var iopipe = require('iopipe')
 var topstories = iopipe.define("https://hacker-news.firebaseio.com/v0/topstories.json"
