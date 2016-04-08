@@ -1,0 +1,21 @@
+{
+  "name": "ffmpeg-resize",
+  "version": "1.0.0",
+  "description": "Resize with Dockerized FFmpeg",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "docker",
+    "ffmpeg",
+    "serverless",
+    "iopipe"
+  ],
+  "author": "Eric Windisch <eric@iopipe.com>",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "iopipe": "",
+    "dockaless": ""
+  }
+}
