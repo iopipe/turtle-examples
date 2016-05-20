@@ -1,0 +1,11 @@
+{
+  "name": "iopipe-voice-assistant",
+  "version": "1.0.0",
+  "description": "Voice Assistant Example built with IOpipe",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Eric Windisch <eric@iopipe.com>",
+  "license": "Apache-2.0"
+}
