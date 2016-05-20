@@ -1,0 +1,14 @@
+{
+  "name": "iopipe-watson-speech-to-text",
+  "version": "1.0.0",
+  "description": "Watson Speech to Text",
+  "main": "speech-to-text.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Eric Windisch <eric@iopipe.com>",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "watson-developer-cloud": ""
+  }
+}

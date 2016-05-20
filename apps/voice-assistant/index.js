@@ -1,7 +1,14 @@
 var iopipe = require("iopipe")
+/*
+  Pass event containing:
+    audio - Audio to be transcribed
+    context_type - audio/flac, audio/l16, audio/wav, audio/ogg
+*/
 module.exports = iopipe.define(
+  "examples/watson-speech-to-text",
+  iopipe.property("results")[0]["alternatives"][0]["transcript"],
   iopipe.tee(
-    "iopipe-watson-natural-language-classifier", // Use ML to determine function
+    "examples/watson-natural-language-classifier", // Use ML to determine function
     iopipe.tee("find-subject", // Extract subject
                iopipe.echo)    // Original string
   ),
