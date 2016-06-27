@@ -1,6 +1,8 @@
 IOpipe examples
 ---------------------------------------
 
+[![Gitter](https://img.shields.io/gitter/room/nwjs/nw.js.svg?maxAge=2592000)](https://gitter.im/iopipe/iopipe)
+
 Example apps and kernels for IOpipe.
 
 These are still quite early in development, untested,
