@@ -5,7 +5,7 @@ module.exports = (config) => {
    *  api_key:
    * }
    */
-  var plotly = require('plotly')(config.username, event.api_key);
+  var plotly = require('plotly')(config.username, config.api_key);
 
   return (event, context) => {
     /* Takes input event:
